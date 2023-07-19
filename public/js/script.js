@@ -8,6 +8,6 @@ window.onload = function () {
 
     ref[i].innerHTML = ref[i].innerHTML.replace(/(http\S+)/g, "\<a href\=\"$1\"\>$1\<\/a\>\<br\>\<br\>");
   };
-  alert("The code has run");
+
 
 };
