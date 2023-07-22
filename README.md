@@ -7,5 +7,3 @@ It is a simple express web server that presents a glossary of terms that I learn
 It is using Bootstrap CSS for styling.
 
 I also used application-side JavaScript to reformat links and paragraphs.
-
-Test push. 

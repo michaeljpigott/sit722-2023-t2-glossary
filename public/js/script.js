@@ -5,9 +5,7 @@ window.onload = function () {
   }
   ref = document.getElementsByClassName("reference");
   for (var i = 0; i < ref.length; i++) {
-
-    ref[i].innerHTML = ref[i].innerHTML.replace(/(http\S+)/g, "\<a href\=\"$1\"\>$1\<\/a\>\<br\>\<br\>");
-  };
-
-
+    ref[i].innerHTML = ref[i].innerHTML.replace(/(http\S+)/g,'<a href="$1">$1</a>');
+    ref[i].innerHTML = ref[i].innerHTML.replace(/(\$NL)/g,'<br><br>');
+ }
 };
