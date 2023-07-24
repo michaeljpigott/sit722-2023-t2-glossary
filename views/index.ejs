@@ -12,28 +12,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <h1 id="h1"><%= title %></h1>
-    <p>Welcome to <%= subheading %></p>
-    <table class="table table-hover table-bordered">
-      <thead class="table-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Term</th>
-          <th scope="col">Description</th>
-          <th scope="col">References</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% glossaryItems.forEach((item) => { %>
-        <tr>
-          <td><%= item.id %></td>
-          <td><%= item.term %></td>
-          <td class="description"><%= item.description %></td>
-          <td class="reference"><%= item.references %></td>
-        </tr>
-        <% }) %>
-      </tbody>
-    </table>
+    <div class="container">
+      <h1 id="h1"><%= title %></h1>
+      <p>Welcome to <%= subheading %></p>
+      <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Term</th>
+            <th scope="col">Description</th>
+            <th scope="col">References</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% glossaryItems.forEach((item) => { %>
+          <tr>
+            <td><%= item.id %></td>
+            <td><%= item.term %></td>
+            <td class="description"><%= item.description %></td>
+            <td class="reference"><%= item.references %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
     <script language="javascript" src="js/bootstrap.min.js"></script>
     <script language="javascript" src="js/script.js"></script>
   </body>
