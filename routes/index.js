@@ -162,6 +162,30 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n ",
   },
+  {
+    id: "21",
+    term: "Dockerfile",
+    description:
+      "Instructions about how to build a Docker image. \n It is a text file with a series of commands. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Docker docs (n.d.) Dockerfile reference, docker docs, accessed on 4 August 2023. https://docs.docker.com/engine/reference/builder/ \n ",
+  },
+  {
+    id: "22",
+    term: "Alpine",
+    description:
+      "Indicates that the base image of Docker uses Alpine Linux. \n Alpine Linux is lightweight at only 5 MB in size. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Docker Hub (n.d.) alpine, docker hub, accessed on 4 August 2023. https://hub.docker.com/_/alpine \n ",
+  },
+  {
+    id: "23",
+    term: "Software Bill of Materials (SBOM)",
+    description:
+      "It's a list of all the components within a docker image. \n Used as a way of improving suppy chain security. \n ",
+    references:
+      "Cormack J (n.d.) Announcing Docker SBOM: A step towards more visibility into Docker images, Docker, accessed on 5 August 2023. https://www.docker.com/blog/announcing-docker-sbom-a-step-towards-more-visibility-into-docker-images/ \n ",
+  },
 ];
 
 /* GET home page. */
