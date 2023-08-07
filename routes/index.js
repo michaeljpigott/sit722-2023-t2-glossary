@@ -186,6 +186,14 @@ const glossaryList = [
     references:
       "Cormack J (n.d.) Announcing Docker SBOM: A step towards more visibility into Docker images, Docker, accessed on 5 August 2023. https://www.docker.com/blog/announcing-docker-sbom-a-step-towards-more-visibility-into-docker-images/ \n ",
   },
+  {
+    id: "24",
+    term: "Docker compose",
+    description:
+      "A tool that helps us manage multiple docker containers. \n Declares rules using a YAML file. The file contains rules. One rule equals one docker command. \n It is open source and written in Python. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Ligios A (30 November 2022) Introduction to Docker Compose, Baeldung, accessed on 7 August 2023. https://www.baeldung.com/ops/docker-compose \n ",
+  },
 ];
 
 /* GET home page. */
