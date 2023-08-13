@@ -194,6 +194,54 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Ligios A (30 November 2022) Introduction to Docker Compose, Baeldung, accessed on 7 August 2023. https://www.baeldung.com/ops/docker-compose \n ",
   },
+  {
+    id: "25",
+    term: "Docker compose file",
+    description:
+      "A set of instructions that tell the compuer how to build the multiple containers that make up a microservices application. \n Read by the Docker compose application. \n Uses the YAML language. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Docker Docs (n.d.) The Compose file, Docker Docs, accessed on 11 August 2023. https://docs.docker.com/compose/compose-file/03-compose-file/ \n",
+  },
+  {
+    id: "26",
+    term: "YAML",
+    description:
+      "Stands for YAML Ain't Markup Language. \n Designed to be human-readable. \n The extension is either .yml or .yaml. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Red Hat (3 March 2023) What is YAML?, Red Hat, accessed on 11 August 2023. https://www.redhat.com/en/topics/automation/what-is-yaml \n ",
+  },
+  {
+    id: "27",
+    term: "docker-compose up",
+    description:
+      "An important docker-compose command, where docker-compose boots the docker containers according to the instructions in the Docker compose file. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n ",
+  },
+  {
+    id: "28",
+    term: "Hot-swappable",
+    description:
+      "Means that a microservice can be swapped with another while production is still running. \n The term can also mean the swapping of physical hard drives without powering down the computer. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n OnLogic (25 September 2021) What is hot-swap storage? One SUPER important spec to consider [video], OnLogic, accessed on 12 August 2023. https://www.youtube.com/watch?v=sPTtvbDj7fc \n ",
+  },
+  {
+    id: "29",
+    term: "Mocking",
+    description:
+      "Testing the applications with fake data.  \n Lets you find errors. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Kisivuli Q (5 July 2023) Why Mocking Data is a Bad Practice for Testing, Medium, accessed on 13 August 2023. https://medium.com/@queenskisivuli/why-mocking-data-is-a-bad-practice-for-testing-a20d2d7104aa \n Scott Logic (8 February 2016) Data Mocking - A way to test the untestable, Scott Logic, accessed on 13 August 2023. https://blog.scottlogic.com/2016/02/08/data-mocking.html \n ",
+  },
+  {
+    id: "30",
+    term: "Azure",
+    description:
+      "Microsoft's cloud platform that offers more than 200 products.  \n Includes Azure Storage which is used to store files. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Azure (n.d.) What is Azure?, Azure, accessed on 13 August 2023. https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-azure/ \n ",
+  },
 ];
 
 /* GET home page. */
