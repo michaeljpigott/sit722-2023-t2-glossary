@@ -242,6 +242,46 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Azure (n.d.) What is Azure?, Azure, accessed on 13 August 2023. https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-azure/ \n ",
   },
+  {
+    id: "31",
+    term: "NPX",
+    description:
+      "Stands for Node Package eXecute. \n Used to execute JavaScript packages directly, without installing them. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Singh G (30 June 2023) Difference between NPM and NPX, Coding Ninjas, accessed on 26 August 2023. https://www.codingninjas.com/studio/library/difference-between-npm-and-npx \n ",
+  },
+  {
+    id: "32",
+    term: "wait-port",
+    description:
+      "A utility in node.js that lets you wait until a specific port is opened. \n A command example is wait-port localhost:3000 \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n NPM (n.d.) wait-port, NPM, accessed on 26 August 2023. https://www.npmjs.com/package/wait-port?activeTab=readme \n ",
+  },
+  {
+    id: "33",
+    term: "amqplib",
+    description:
+      "The NPM package that is used as the API to talk to RabbitMQ. \n You can establish connections, create channels, declare exchanges and queues, and publish and consume messages in a RabbitMQ server. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Semgrep (31 July 2023) amqplib v0.4.0, Semgrep, accessed on 26 August 2023. https://semgrep.dev/advisory/npm-package/amqplib/0.4.0 \n ",
+  },
+  {
+    id: "34",
+    term: "RabbitMQ",
+    description:
+      "A type of open source message broker that uses the erlang programming language. \n It supports different message protocols and streaming. \n Allows separate microservices to communicate asynchronously \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Fireship (6 September 2022) RabbitMQ in 100 Seconds, Fireship, YouTube, accessed on 27 August 2023. https://www.youtube.com/watch?v=NQ3fZtyXji0 \n RabbitMQ (n.d.) RabbitMQ: easy to use, flexible messaging and streaming — RabbitMQ, RabbitMQ, accessed on 27 August 2023. https://www.rabbitmq.com/ \n ",
+  },
+  {
+    id: "35",
+    term: "HTTP POST requests",
+    description:
+      "Sends data to a destination via the internet. \n Typically sent via an HTML form and changes the data held on a server. \n ",
+    references:
+      "apipheny (n.d.) What is a POST API Request? How a POST HTTP Request Works, apipheny, accessed on 28 August 2023. https://apipheny.io/what-is-post-request/ \n MDN web docs (11 April 2023) POST, mdn web docs, accessed on 28 August 2023. https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST \n ",
+  },
 ];
 
 /* GET home page. */
