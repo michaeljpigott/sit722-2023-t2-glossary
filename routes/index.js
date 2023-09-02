@@ -272,7 +272,7 @@ const glossaryList = [
     description:
       "A type of open source message broker that uses the erlang programming language. \n It supports different message protocols and streaming. \n Allows separate microservices to communicate asynchronously \n",
     references:
-      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Fireship (6 September 2022) RabbitMQ in 100 Seconds, Fireship, YouTube, accessed on 27 August 2023. https://www.youtube.com/watch?v=NQ3fZtyXji0 \n RabbitMQ (n.d.) RabbitMQ: easy to use, flexible messaging and streaming — RabbitMQ, RabbitMQ, accessed on 27 August 2023. https://www.rabbitmq.com/ \n ",
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Fireship (6 September 2022) RabbitMQ in 100 Seconds [video], Fireship, YouTube, accessed on 27 August 2023. https://www.youtube.com/watch?v=NQ3fZtyXji0 \n RabbitMQ (n.d.) RabbitMQ: easy to use, flexible messaging and streaming — RabbitMQ, RabbitMQ, accessed on 27 August 2023. https://www.rabbitmq.com/ \n ",
   },
   {
     id: "35",
@@ -281,6 +281,46 @@ const glossaryList = [
       "Sends data to a destination via the internet. \n Typically sent via an HTML form and changes the data held on a server. \n ",
     references:
       "apipheny (n.d.) What is a POST API Request? How a POST HTTP Request Works, apipheny, accessed on 28 August 2023. https://apipheny.io/what-is-post-request/ \n MDN web docs (11 April 2023) POST, mdn web docs, accessed on 28 August 2023. https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST \n ",
+  },
+  {
+    id: "36",
+    term: "Terraform",
+    description:
+      "It is a tool that helps create infrastructure as code. It uses the hashicorp configuration language (HCL) and is free and open source. \n Can plug into different providers like AWS and Google Cloud. \n The command terraform apply makes the actual changes to the cloud provider. It is machine translatable to YAML and JSON. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Fireship (29 July 2021) Terraform in 100 seconds [video], Fireship, YouTube, accessed on 28 August 2023. https://www.youtube.com/watch?v=tomUWcQ0P3k \n Hashicorp Developer (n.d.) What is Terraform?, Hashicorp Developer, accessed on 28 August 2023. https://developer.hashicorp.com/terraform/intro \n",
+  },
+  {
+    id: "37",
+    term: "Kubectl",
+    description:
+      "A utility used to configure and run Kubernetes.  \n Can make HTTP requests to the Kubernetes API. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Ambassador Labs (8 January 2020) Getting Edgy: What is kubectl? [video], Ambassador Labs, YouTube, accessed on 28 August 2023. https://www.youtube.com/watch?v=NllE69Mp2-Y&t=60s \n Saalu S (n.d.) What is Kubectl?, Teleport, accessed on 28 August 2023. https://goteleport.com/blog/what-is-kubectl/ \n That DevOps Guy (8 September 2019) Kubectl basics for beginners | Kubernetes [video], That DevOps Guy, accessed on 28 August 2023. https://www.youtube.com/watch?v=feLpGydQVio \n",
+  },
+  {
+    id: "38",
+    term: "Kubernetes cluster",
+    description:
+      "A grouping in Kubernetes of multiple virtual machines (known as nodes). \n Each node can have several pods and each pod can have one or more containers.  \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n ",
+  },
+  {
+    id: "39",
+    term: "Service principal",
+    description:
+      "Allows our Kubernetes cluster to authenticate with Azure. \n Azure can then create load balancers as the front-end gateway for users of our application. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n ",
+  },
+  {
+    id: "40",
+    term: "RBAC",
+    description:
+      "Stands for role-based access control \n Roles can get assigned to service principals. \n",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Imperva (n.d) Role-Based Access Control (RBAC), Imperva, accessed on 2 September 2023. https://www.imperva.com/learn/data-security/role-based-access-control-rbac/ \n Microsoft (21 August 20) What is Azure role-based access control (Azure RBAC)?, Microsoft, accessed on 2 September 2023. https://learn.microsoft.com/en-us/azure/role-based-access-control/overview \n",
   },
 ];
 
