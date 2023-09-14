@@ -322,6 +322,46 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Imperva (n.d) Role-Based Access Control (RBAC), Imperva, accessed on 2 September 2023. https://www.imperva.com/learn/data-security/role-based-access-control-rbac/ \n Microsoft (21 August 20) What is Azure role-based access control (Azure RBAC)?, Microsoft, accessed on 2 September 2023. https://learn.microsoft.com/en-us/azure/role-based-access-control/overview \n",
   },
+  {
+    id: "41",
+    term: "Bitbucket Pipelines",
+    description:
+      "Atlassian-hosted service used for continuous delivery. \n You upload your git repository to it and use a yaml file to instruct BitBucket how to create your CD pipeline. \n ",
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n ",
+  },
+  {
+    id: "42",
+    term: "instantiate",
+    description:
+      "A computer science term. \n The process of taking a definition and creating an object. \n ",
+    references:
+      "edutechional (18 July 2016) OOP Instantiation Tutorial, edutechional, YouTube, accessed on 10 September 2023. https://www.youtube.com/watch?v=v-31oLuHphY \n",
+  },
+  {
+    id: "43",
+    term: "Azure load balancer",
+    description:
+      "Distributes incoming traffic to backend resources or servers to deliver high availability.  \n The basic load balancer is offered at no charge in Azure. \n",
+    references:
+      "AV Networks (n.d.) Azure Load Balancer, AV Networks, accessed on 11 September 2023. https://avinetworks.com/glossary/azure-load-balancer/ \n Microsoft (12 February 2023) What is Azure Load Balancer?, Microsoft, accessed on 11 September 2023. https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview \n",
+  },
+  {
+    id: "44",
+    term: "shell script",
+    description:
+      "A series of commands that can be run by a Unix shell. The commands are written in plain text and executes the commands from top to bottom. \n Uses the .sh file extension. \n ",
+    references:
+      "Cannon J (n.d.) What Shell Scripting Is and Why You Should Learn It [video], Udemy, accessed on 12 September 2023. https://www.udemy.com/tutorial/linux-shell-scripting-projects/what-shell-scripting-is-and-why-you-should-learn-it/ \n ",
+  },
+  {
+    id: "45",
+    term: "node resource group",
+    description:
+      'When you create a Kubernetes cluster in Azure, it automatically creates a second resource group. This resource group is known as the node resource group. \n It name of the node resource group starts with "MC_". \n It contains all the infrastructure resources associated with the Kubernetes cluster. \n',
+    references:
+      "Microsoft (6 July 2023) Frequently asked questions about Azure Kubernetes Service (AKS), Microsoft, accessed on 12 September 2023. https://learn.microsoft.com/en-us/azure/aks/faq \n ",
+  },
 ];
 
 /* GET home page. */
