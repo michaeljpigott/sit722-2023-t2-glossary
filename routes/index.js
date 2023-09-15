@@ -378,6 +378,22 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
   },
+  {
+    id: "48",
+    term: "unit testing",
+    description:
+      'Tests a small section of related code. \n Fast to run. \n Unit testing should account for most autommated testing. \n',
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
+  },
+  {
+    id: "49",
+    term: "testing pyramid",
+    description:
+      'A diagram that demonstrates how many end-to-end, integration and unit tests should be conducted in relation to each other. \n' Unit tests form the base of the pyramid, therefore most unit tests should be most automated tests. \n ',
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
+  },
 ];
 
 /* GET home page. */
