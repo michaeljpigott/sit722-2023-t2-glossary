@@ -362,6 +362,22 @@ const glossaryList = [
     references:
       "Microsoft (6 July 2023) Frequently asked questions about Azure Kubernetes Service (AKS), Microsoft, accessed on 12 September 2023. https://learn.microsoft.com/en-us/azure/aks/faq \n ",
   },
+  {
+    id: "46",
+    term: "end-to-end testing",
+    description:
+      'When you test an entire application. \n Cypress is an example of an end-to-end testing tool. \n Can be slow to run because you are testing the whole application. You cannot run them if the application becomes too big. \n',
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
+  },
+   {
+    id: "47",
+    term: "integration testing",
+    description:
+      'Tests whole microservices. \n Faster than end-to-end testing, but still can be slow. \n',
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
+  },
 ];
 
 /* GET home page. */
