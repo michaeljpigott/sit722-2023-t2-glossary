@@ -394,6 +394,14 @@ const glossaryList = [
     references:
       "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.1 Testing, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890554/View \n ",
   },
+        {
+    id: "50",
+    term: "Jest",
+    description:
+      'An automated testing tool that can run unit tests over code written in JavaScript. Facebook created it. \n It is easy to configure so it is good for beginners. \n It can run tests in parallel. \n',
+    references:
+      "Davis A (2021) Bootstrapping microservices with Docker, Kubernetes, and Terraform: a project-based guide, 1st edn, Manning Publications Co., Shelter Island New York. \n Deakin University (n.d.) 9.2 Testing Tools, Deakin University, accessed on 15 September 2023. https://d2l.deakin.edu.au/d2l/le/content/1317132/viewContent/6890555/View \n ",
+  },
 ];
 
 /* GET home page. */
